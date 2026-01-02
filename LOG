@@ -1,2 +1,5 @@
+v2, Jan 03, 2026:
+Add snake, a snake game with small memory compression.
+
 v1, Dec 29, 2025:
 Initial commit with pt_emu, a small page table emulator experiment.
