@@ -34,6 +34,7 @@ void   kinit(char *ram, size_t size);
 void  *kalloc(void);
 pte_t *walk(pt_t pt, uint64_t va, int alloc);
 int    mappages(pt_t pt, uint64_t va, uint64_t pa, uint64_t perm);
+
 int main(void)
 {
 	char ram[RAM_SIZE] __attribute__((aligned(PAGE_SIZE)));

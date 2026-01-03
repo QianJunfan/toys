@@ -167,7 +167,7 @@ void spawn(void)
 #include "ui.c"
 void run(void)
 {
-	char c;
+	char c = ' ';
 
 	while(RUNNING) {
 		if(kbhit()) {

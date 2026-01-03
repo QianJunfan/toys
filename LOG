@@ -1,3 +1,9 @@
+v3, Jan 03, 2026:
+Add 2048c, just a 2048 game.
+Add a Makefile. 
+Now you can use make to compile all software into the bin directory, 
+and use make clean to remove all compilation outputs.
+
 v2, Jan 03, 2026:
 Add snake, a snake game with small memory compression.
 

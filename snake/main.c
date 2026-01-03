@@ -30,7 +30,7 @@
 #define DOWN  2
 #define LEFT  3
 
-#define CLEAR	"\033[2J\033[H"
+#define CLEAR		"\033[2J\033[H"
 
 #define RUNNING 	map[0][0].data
 #define OP      	map[0][1].data
@@ -55,8 +55,7 @@ union block {
 	uint8_t val;
 
 	struct {
-		uint8_t type     : 3;
-		
+		uint8_t type     : 3;	
 		uint8_t data     : 5;
 	};
 };
