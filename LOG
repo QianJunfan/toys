@@ -1,11 +1,15 @@
+v4, Jan 04, 2026:
+	I am developing a pacman game with my girlfriend,
+	but it's not finished yet.
+
 v3, Jan 03, 2026:
-Add 2048c, just a 2048 game.
-Add a Makefile. 
-Now you can use make to compile all software into the bin directory, 
-and use make clean to remove all compilation outputs.
+	Add 2048c, just a 2048 game.
+	Add a Makefile. 
+	Now you can use make to compile all software into the bin directory, 
+	and use make clean to remove all compilation outputs.
 
 v2, Jan 03, 2026:
-Add snake, a snake game with small memory compression.
+	Add snake, a snake game with small memory compression.
 
 v1, Dec 29, 2025:
-Initial commit with pt_emu, a small page table emulator experiment.
+	Initial commit with pt_emu, a small page table emulator experiment.
