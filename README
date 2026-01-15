@@ -1,4 +1,5 @@
 [DONE]
+donut	- A classic rotating 3D donut
 2048c	- Its just a 2048 game
 pt_emu	- A multi-level page table system emulator
 snake	- A snake game with small memory compression
@@ -6,7 +7,6 @@ sum	- A minimalist project summary utility
 
 [DOING]
 x11	- Learn x11
-donut	- A classic rotating 3D donut
 cpp	- C++ studies
 pac_man	- Just a Pac-Man game
 
