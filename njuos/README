@@ -1,0 +1,39 @@
+Sundries
+
+1. sundries/thread.c, my first multi-threading example.
+
+2. sundries/detach.c, I tried out detached threads.
+
+3. sundries/parallel.c, demonstrates how to utilize two threads for parallel
+   computing.
+
+4. sundries/mutex.c, a demonstration of two threads competing to modify a global
+   variable simultaneously, using a Mutex to ensure an accurate result.
+
+5. sundries/wake.c,
+   In multithreading, relying solely on 'locks' is not enough. If a consumer 
+   thread finds the basket empty. It cannnot just keep staring at it in an 
+   infinite loop (which wastes too much CPU time).
+
+   Instead, it should go to sleep. When the producer adds something, it then 
+   wakes the consumer up.
+
+   To implement this type of 'communication', we need to use a condition
+   variable.
+
+6. sundries/pstack.c, a demonstration that different threads have their own
+   separate stacks.
+
+7. sundries/ssize.c, a demonstration of modifying the stack size for a thread.
+
+Mini Labs
+
+1. mlabs/pstree.c, this is a simplified version of pstree, which is part of the
+   M1 lab.
+
+
+Labs
+
+1. labs/baremetal, a minimal i386 bare-metal program featuring serial port
+   output and video memory (VGA) writing.
+
