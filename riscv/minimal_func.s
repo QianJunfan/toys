@@ -1,5 +1,5 @@
 main:
-        # Add Immediate: addi rd, rs1, imd
+        # Add Immediate: addi   rd, rs1, imd
         #       rd:     destination register
         #       rs1:    source register 1
         #       imd:    a numbaer from -2048 to 2047
